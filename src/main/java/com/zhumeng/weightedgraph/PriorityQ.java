@@ -97,6 +97,11 @@ public class PriorityQ {
         return queArray[n];
     }
 
+    /**
+     * 根据 边的结束顶点的下标 查找边
+     * @param findIndex
+     * @return
+     */
     public int find(int findIndex){
         for (int j = 0; j <size ; j++) {
             if(queArray[j].destVert==findIndex){

@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4dde071-08b9-4091-9666-e4f0899bfff0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/graph/BFSGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/graph/DFSGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/graph/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/graph/StackX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/graph/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/hash/DataItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/hash/HashChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/hash/HashLinkTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/hash/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/hash/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/hash/SortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/heap/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/heap/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/tree/RedBlackTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/tree/tree234/DataItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/tree/tree234/M234Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/tree/tree234/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/PriorityQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Vertex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhumeng/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhumeng/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhumeng/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhumeng/sorts/ArraySh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/PriorityQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/PriorityQ.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,17 +36,17 @@
       <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhumeng/graph/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
+            <state relative-caret-position="327">
               <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Edge.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Edge.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Edge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+            <state relative-caret-position="120">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -76,8 +54,8 @@
       <file leaf-file-name="PriorityQ.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/PriorityQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="-708">
+              <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
               <folding>
                 <element signature="e#1051#1052#0" expanded="true" />
                 <element signature="e#1090#1091#0" expanded="true" />
@@ -97,17 +75,17 @@
       <file leaf-file-name="Vertex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Vertex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="160">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="61" column="58" lean-forward="true" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="58" />
+            <state relative-caret-position="240">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="e#826#827#0" expanded="true" />
                 <element signature="e#878#879#0" expanded="true" />
@@ -232,9 +210,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhumeng/graph/BFSGraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhumeng/graph/DFSGraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhumeng/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/PriorityQ.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Vertex.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Edge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/PriorityQ.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Graph.java" />
       </list>
     </option>
@@ -361,7 +339,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Graph">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhumeng.App" />
       <module name="data_structure_test" />
@@ -391,6 +369,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhumeng.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhumeng.weightedgraph.Graph" />
+      <module name="data_structure_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhumeng.weightedgraph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -464,9 +453,11 @@
       <item itemvalue="Application.ShellSortArraySh" />
       <item itemvalue="Application.DFSGraph" />
       <item itemvalue="Application.BFSGraph" />
+      <item itemvalue="Application.Graph" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Graph" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.DFSGraph" />
         <item itemvalue="Application.BFSGraph" />
@@ -485,6 +476,14 @@
       <option name="presentableId" value="Default" />
       <updated>1538270924670</updated>
     </task>
+    <task id="LOCAL-00001" summary="添加带权图">
+      <created>1542610987906</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542610987906</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -502,18 +501,19 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.25180897" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.2633864" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.19844358" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38639653" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.19844358" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23878437" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.3299566" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.26483357" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23151751" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23151751" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -523,15 +523,48 @@
       <window_info anchor="bottom" id="SVN Repositories" order="7" weight="0.3039074" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.2633864" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43704775" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.3299566" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3690304" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.43704775" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23151751" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.25180897" />
+      <window_info anchor="bottom" id="SVN Repositories" order="8" weight="0.3039074" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.14616498" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.26483357" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.2633864" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.19844358" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加带权图" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加带权图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -866,13 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhumeng/graph/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhumeng/queue/PriorQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -880,10 +906,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhumeng/graph/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/PriorityQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="-708">
+          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
           <folding>
             <element signature="e#1051#1052#0" expanded="true" />
             <element signature="e#1090#1091#0" expanded="true" />
@@ -899,30 +932,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="160">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="61" column="58" lean-forward="true" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="58" />
+        <state relative-caret-position="240">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="e#826#827#0" expanded="true" />
             <element signature="e#878#879#0" expanded="true" />
             <element signature="e#1123#1124#0" expanded="true" />
             <element signature="e#1177#1178#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhumeng/weightedgraph/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
         </state>
       </provider>
     </entry>
