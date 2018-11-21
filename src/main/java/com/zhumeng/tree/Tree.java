@@ -92,7 +92,7 @@ public class Tree {
         return last;
     }
     /**
-     * 二叉树遍历；中序遍历
+     * 二叉树遍历；中序遍历,先遍历左子树，然后遍历自身，最后遍历又子树
      */
     public void midleInOrder(Node localRoot){
         if(localRoot!=null){
@@ -105,7 +105,7 @@ public class Tree {
         }
     }
     /**
-     * 二叉树遍历；前序遍历
+     * 二叉树遍历；前序遍历,先遍历节点本身，然后遍历左子树，最后遍历右子树
      */
     public void preInOrder(Node localRoot){
         if(localRoot!=null){
@@ -119,7 +119,7 @@ public class Tree {
     }
 
     /**
-     * 二叉树遍历；后序遍历
+     * 二叉树遍历；后序遍历,先遍历左子树，然后遍历右子树，最后遍历节点本身
      */
     public void lastInOrder(Node localRoot){
         if(localRoot!=null){
@@ -137,10 +137,11 @@ public class Tree {
      * 二叉树 删除
      * 1、删除叶子节点
      * 2、删除有一个 子节点的节点
-     * 3、
+     * 3、有两个子节点，找其后继（其右边子树中 最左边 最小的值节点）替代
      */
 
     public boolean delete(int key){
+        //定义需要被删除的节点
         Node current = root;
         Node parent = root;
         boolean isLeftChild = true;
@@ -194,9 +195,10 @@ public class Tree {
         else {
             //寻找后继节点
             Node successor = getSuccessor(current);
+            //需要被删除的节点 是根节点
             if(current==root)
                 root = successor;
-            else if(isLeftChild)
+            else if(isLeftChild)  //需要被删除的节点 是左子节点
                 parent.leftChild = successor;
             else
                 parent.rightChild = successor;
@@ -206,22 +208,25 @@ public class Tree {
     }
 
     /**
-     * 寻找某个节点的后继节点
+     * 寻找某个节点的后继节点 ，找其后继（其右边子树中 最左边 最小的值节点）替代
      * @param delNode
      * @return
      */
     private Node getSuccessor(Node delNode){
-        Node successorParent = delNode;
+        //定义需要删除节点的父节点
+//        Node successorParent = delNode;
+        //需要删除节点
         Node successor = delNode;
+        //寻找后继节点
         Node current = delNode.rightChild;
         while (current!=null){
-            successorParent = successor;
+//            successorParent = successor;
             successor = current;
             current = current.leftChild;
         }
-        //???????
+        //后继节点 不是 将要被删除节点的右子节点,而是右子树的最左叶子节点，那么需要把 待删除的节点的右子树 赋给 后继节点
         if(successor!=delNode.rightChild){
-            successorParent = successor.rightChild;
+//            successorParent = successor.rightChild;
             successor.rightChild = delNode.rightChild;
         }
         return successor;
