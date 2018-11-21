@@ -1,4 +1,4 @@
-package com.zhumeng.weightedgraph;
+package com.zhumeng.graph.weightedgraph;
 
 /**
  * Created by 512162086@qq.com on 2018/11/19 .

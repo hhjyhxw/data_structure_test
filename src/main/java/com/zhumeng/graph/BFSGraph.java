@@ -107,6 +107,9 @@ public class BFSGraph {
         graph.addEdge(3,4);//DE
 
         //搜索访问
-        graph.bfs();
+//        graph.bfs();
+
+
+//       System.out.println("123456".substring(0, 5));
     }
 }
