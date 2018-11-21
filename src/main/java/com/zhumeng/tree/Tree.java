@@ -213,20 +213,21 @@ public class Tree {
      * @return
      */
     private Node getSuccessor(Node delNode){
-        //定义需要删除节点的父节点
-//        Node successorParent = delNode;
-        //需要删除节点
+        //后继节点的父节点
+        Node successorParent = delNode;
+        //需要删除节点 赋值给后继节点
         Node successor = delNode;
         //寻找后继节点
         Node current = delNode.rightChild;
-        while (current!=null){
-//            successorParent = successor;
+        while (current!=null){//后继节点 是右子树最左子节点
+            successorParent = successor;
             successor = current;
             current = current.leftChild;
         }
-        //后继节点 不是 将要被删除节点的右子节点,而是右子树的最左叶子节点，那么需要把 待删除的节点的右子树 赋给 后继节点
+        //后继节点 不是 将要被删除节点的右子节点,而是右子树的最左子节点，那么需要把 待删除的节点的右子树 赋给 后继节点
         if(successor!=delNode.rightChild){
-//            successorParent = successor.rightChild;
+            //把后继节点的右子树 赋给 后继节点的 父节点的左子节点
+            successorParent.leftChild = successor.rightChild;
             successor.rightChild = delNode.rightChild;
         }
         return successor;
