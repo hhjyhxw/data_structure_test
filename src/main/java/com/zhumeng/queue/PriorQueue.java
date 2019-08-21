@@ -2,7 +2,8 @@ package com.zhumeng.queue;
 
 /**
  * Created by 512162086@qq.com on 2018/10/4 .
- * 优先级队列,最大优先级项，总是在角标0位置；最小优先级 项 总在角标最高位置
+ * ########优先级队列,同过比较大小插入合适位置，每次移除从队头开始(从最大优先及开始，数组下标比较大的一端 值大端优先级)
+ * 值小端优先级  和 值大端优先级
  */
 public class PriorQueue {
     private int maxSize;//队列最大长度

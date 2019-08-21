@@ -2,8 +2,9 @@ package com.zhumeng.sorts;
 
 /**
  * Created by 512162086@qq.com on 2018/9/30 .
- * 选择排序
+ * 选择排序:（升序）从左到右的每一个分别与后面的比较，找到最小的值，然后与之交换位置，经过n*(n-1)轮比较选择，完成排序
  * 不变性：下标
+ *
  */
 public class SelectSortTest {
 

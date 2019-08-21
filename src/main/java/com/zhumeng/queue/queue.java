@@ -7,7 +7,7 @@ public class queue {
     private int maxSize;//队列最大长度
     private long[] querArray;//队列数组;;以数组为底层的队列，一般开始处理数据从 低位下标开始
     private int rear;//插入数据的队尾位置
-    private int front;//移除数据的 队头指针（位置）
+    private int front;//移除数据的 队头指针（位置）(队头一般在数据下标小的一端，队尾一般在数组下标小的一边)
     private int nItem;// 队列已存入 元素 总数
 
     public queue(int max){

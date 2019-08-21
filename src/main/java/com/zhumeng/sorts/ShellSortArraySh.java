@@ -5,15 +5,15 @@ package com.zhumeng.sorts;
  * 希尔排序
  */
 public class ShellSortArraySh {
-    private long[] theArray;//
+    private int[] theArray;//
     private int nElems;// number of data item
 
     public ShellSortArraySh(int max){
-        theArray = new long[max];
+        theArray = new int[max];
         this.nElems = 0;
     }
 
-    public void insert(long value){
+    public void insert(int value){
         theArray[nElems]=value;
         nElems++;
     }
@@ -31,7 +31,7 @@ public class ShellSortArraySh {
     public void shellSort(){
 
         int inner,outer;
-        long temp;
+        int temp;
 
         int h=1;// find initial  value of h;初始化插入排序的标志位
         while (h<=nElems/3){
@@ -55,11 +55,11 @@ public class ShellSortArraySh {
 
     public static void main(String[] args){
 
-        int maxSize = 10;
+        int maxSize = 1000;
         ShellSortArraySh arr;
         arr = new ShellSortArraySh(maxSize);
         for (int i = 0; i <maxSize ; i++) {
-            long n = (long) (Math.random()*99);
+            int n = (int) (Math.random()*99);
             arr.insert(n);
         }
         arr.display();
@@ -67,5 +67,21 @@ public class ShellSortArraySh {
         System.out.println("//////////////////////");
         arr.display();
 
+    }
+
+    public int[] getTheArray() {
+        return theArray;
+    }
+
+    public void setTheArray(int[] theArray) {
+        this.theArray = theArray;
+    }
+
+    public int getnElems() {
+        return nElems;
+    }
+
+    public void setnElems(int nElems) {
+        this.nElems = nElems;
     }
 }

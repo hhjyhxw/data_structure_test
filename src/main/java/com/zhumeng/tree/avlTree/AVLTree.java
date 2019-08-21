@@ -2,7 +2,8 @@ package com.zhumeng.tree.avlTree;
 
 /**
  * Created by 512162086@qq.com on 2018/11/21 .
- * 二叉平衡树,那边失去平衡，就以那边的子节点为轴，自身节点向失去平衡的相反方向旋转...
+ * 二叉平衡树
+ * https://www.cnblogs.com/skywang12345/p/3577479.html
  */
 public class AVLTree<T extends Comparable<T>>  {
 
